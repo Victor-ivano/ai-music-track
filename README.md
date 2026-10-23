@@ -31,16 +31,21 @@
 
 本專案沒有複製 MSST 的整個原始碼庫，也沒有把預訓練權重或音訊樣本提交到 GitHub。模型權重約 1.275 GiB，應依上游專案提供的方式取得，而不是直接放進一般 Git 儲存庫。
 
-## 專案與實驗資料
+## 專案檔案
 
 ```text
 .
+├── data/
+│   └── README.md
+├── docs/
+│   └── progress.md
 ├── experiments/
 │   └── mvsep_53_stems/
 │       ├── README.md
 │       └── run_kaggle_inference.py
 ├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## 原先的自訓練方向
