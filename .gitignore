@@ -6,11 +6,20 @@ venv/
 data/**/*.wav
 data/**/*.mp3
 data/**/*.flac
+input_test/
+separation_results/
+seven_stems/
+outputs/
+*.wav
+*.mp3
+*.flac
+*.zip
 
 checkpoints/
 *.pth
 *.pt
 *.ckpt
+*.onnx
+*.safetensors
 
-outputs/
 .env
